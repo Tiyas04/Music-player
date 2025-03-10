@@ -1,0 +1,39 @@
+* {
+    background-color: rgb(255, 188, 239);
+    margin: 0;
+    padding: 0;    
+}
+
+header {
+    height: 10vh;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 0, 162);
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* margin: auto; */
+}
+main {
+    height: 80vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.more {
+    height:5vh ;
+}
+
+.back {}
+
+.image {}
+
+.name {}
+
+.controls {}
+
+.bar {}
