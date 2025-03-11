@@ -15,7 +15,7 @@
 header {
     height: 10vh;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     color: var(--fontcolour);
     margin: 0;
     padding: 0;
@@ -51,7 +51,7 @@ main {
 
 .name {
     height: 10vh;
-    font-size: 30px;
+    font-size: 25px;
     align-content: center;
     text-align: center;
     font-family: "Mali", cursive;
