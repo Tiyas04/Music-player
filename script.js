@@ -29,6 +29,8 @@ const music = () => {
     player.addEventListener("input",() =>{
         audio.play()
         audio.currentTime = player.value
+         playbutton.src = `video-pause-button.png`
+         isPlay = true
     })
     volumeup.addEventListener("click", () => {
         if (audio.volume < 1) {
