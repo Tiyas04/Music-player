@@ -17,7 +17,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* margin: auto; */
+
 }
 
 main {
@@ -29,16 +29,19 @@ main {
 
 
 .image {
-/* height: 40vh; */
-border: 5px solid rgba(213, 213, 213, 0.732);
-width:fit-content;
-margin: auto;
-border-radius: 50px;
-overflow: hidden;
+
+    border: 5px solid rgba(213, 213, 213, 0.732);
+    width: fit-content;
+    margin: auto;
+    border-radius: 50px;
+    overflow: hidden;
 }
 
 .name {
     height: 10vh;
+    font-size: 25px;
+    align-content: center;
+    text-align: center;
 }
 
 .controls {
@@ -47,4 +50,27 @@ overflow: hidden;
     justify-content: space-around;
 }
 
-.bar {}
+.bar {
+    height: 15vh;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+#player {
+    margin: auto;
+    width: 90vw;
+    -webkit-appearance: none;
+    background-color: rgba(196, 196, 196, 0.823);
+    border-radius: 10px;
+    height: 5px;
+    cursor: pointer;
+}
+
+#player::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: rgba(137, 136, 136, 0.808);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 7px solid rgb(130, 130, 130);
+}
